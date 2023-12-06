@@ -1,0 +1,107 @@
+body {
+	background-color: rgb(255, 245, 194);
+	color: rgb(237, 123, 123);
+	font-family: 'Lora', serif;
+}
+
+h1, h2, h3 {
+	lighting-color: darkred ;
+}
+
+h1 {
+	color: rgb(237, 123, 123);
+	font-family: 'Lora', serif;
+	font-family: helvetica;
+	font-size: xxx-large;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(237, 123, 123);
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgb(131, 96, 150);
+	font-weight: bold
+	transition: color 0.3s ease;
+}
+
+img {
+	width: 300px;
+}
+
+@media (max-width: 2000px) {
+	.container {
+		width: 900px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 300px;
+	}
+}
+
+
+/* custom design with class */
+
+.container {
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 20px auto;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(237, 123, 123);	
+}
+
+.list-inline i:hover {
+	color: rgb(131, 96, 150);
+}
+
+#btn-HECUnited {
+	margin-top: 40px;
+}
+
+.btn-blue:hover {
+	color: white;
+	background-color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
